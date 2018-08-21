@@ -1,0 +1,122 @@
+ * {
+    box-sizing: border-box;
+}
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+  
+    h1 {
+    text-align: center;
+    font-family:cursive;
+    }
+    
+  /*  h3 {
+      font-family:cursive;
+    }
+    /* Add a gray background color and some padding to the footer */
+ /*   footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+      
+    }*/
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+      max-height:400px;
+      max-width:500px;
+    }
+  
+.about img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+      max-height:500px;
+      max-width:445px;
+    }
+    
+
+
+#congrads {
+    padding: 5px;
+    text-align: center;
+    background-color: gray;
+    border: solid 3px black;
+    display:none;
+}
+  
+#orderform {
+   display:none; 
+}
+
+.radiobtn {
+    background-color: white;
+}
+
+
+input[type=text]  {
+    border: black 2px solid;
+   
+}
+input[type=number] {
+    border: black 2px solid;
+   }
+   
+select {
+    border: black 2px solid;
+   }
+#Textarea {
+    border: black 2px solid;
+   }
+   
+@media only screen and (min-width: 576px) {
+input[type=number] {
+    width: 25%;
+    margin-left: 40%;
+    border: black 2px solid;
+    box-sizing: border-box;
+   }
+   
+input[type=text]  {
+    width: 60%;
+    margin-left: 20%;
+    border: black 2px solid;
+    box-sizing: border-box; 
+}
+
+select {
+   /* margin-left:40%; */
+    border: black 2px solid;
+    box-sizing: border-box;
+   }
+   
+input[type=email]  {
+    width: 60%;
+    margin-left: 20%;
+    border: black 2px solid;
+    box-sizing: border-box; 
+   } 
+   
+h5 {
+    text-align: center;
+   }
+   
+#Textarea  {
+    width: 60%;
+    margin-left: 20%; 
+    border: black 2px solid;
+    box-sizing: border-box; 
+   }
+}
+
+input[type=email]  {
+    border: black 2px solid;
+   
+}
+
+   
+
+   

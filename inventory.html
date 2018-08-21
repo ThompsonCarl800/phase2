@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css" type = "text/css">  
+    <title>Petty Kings Brand</title>
+    
+  </head>
+  
+  
+  
+  <body background="img/brickbackground.jpg"> 
+    <h1>Petty Kings Brand</h1>
+  
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+  <!-- Brand -->
+    <a class="navbar-brand" href="about.html">Logo</a>
+
+  <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="inventory.html">Tee Shirts</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li> 
+    </ul>
+  </div> 
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-header bg-success">Red V Neck Tee</div>
+        <div class="card-body"><img src="img/pettykingsred.jpg" class="img-fluid" alt="Red Tee"></div>
+        <div class="card-footer d-flex justify-content-center ">
+          <a href="#orderform"  class="btn btn-warning" role="button" onclick ="findItem('img/pettykingsred.jpg')">Place an order</a> 
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-header bg-success">Black V Neck Tee</div>
+        <div class="card-body"><img src="img/pettykingsblack.jpg" class="img-fluid" alt="Black Tee"></div>
+        <div class="card-footer d-flex justify-content-center ">
+          <a href="#orderform"  class="btn btn-warning" role="button" onclick ="findItem('img/pettykingsblack.jpg')">Place an order</a> 
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="card">
+        <div class="card-header bg-success">Grey V Neck Tee</div>
+        <div class="card-body"><img src="img/pettykingsgrey.jpg" class="img-fluid" alt="Grey Tee"></div>
+        <div class="card-footer d-flex justify-content-center ">
+          <a href="#orderform"  class="btn btn-warning" role="button" onclick ="findItem('img/pettykingsgrey.jpg')">Place an order</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-header bg-success">Maroon Baseball Tee</div>
+        <div class="card-body"><img src="img/pettykingsbaseball.jpg" class="img-fluid" alt="Maroon Baseball Tee"></div>
+        <div class="card-footer d-flex justify-content-center ">
+          <a href="#orderform"  class="btn btn-warning" role="button" onclick ="findItem('img/pettykingsbasemaroon.jpg')">Place an order</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-header bg-success">White V Neck Tee</div>
+        <div class="card-body"><img src="img/pettykingswhite.jpg" class="img-fluid" alt="White Tee"></div>
+        <div class="card-footer d-flex justify-content-center ">
+        <a href="#orderform"  class="btn btn-warning" role="button" onclick ="findItem('img/pettykingswhite.jpg')">Place an order</a>  
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-header bg-success">Blue Baseball Tee</div>
+        <div class="card-body"><img src="img/pettykingsbaseblue.jpg" id="baseballblue" class="img-fluid" alt="Blue Baseball Tee"></div>
+        <div class="card-footer d-flex justify-content-center ">
+    <a href="#orderform"  class="btn btn-warning" role="button" onclick ="findItem('img/pettykingsbaseblue.jpg')">Place an order</a>
+     <!--   <button type="button" class="btn btn-warning" onclick ="findItem('img/pettykingsbaseblue.jpg')" >Submit</button>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+ <div  id= "orderform" class= "container">
+    <footer>
+      <form  id="formshow" class=" text-center" name="theForm" action="/action_page.php">  
+        <div class= "container text-center">
+          <img  id="shirtPic" src="img/pettykingsred.jpg" class="mt-5 mx-auto d-block img-fluid .img-thumbnail" alt="Ordered Shirt">
+        </div>
+        <br>
+        <h4>Petty Kings Order Form</h4>
+        
+        <div id="congrads">
+        <h3>Thank You For Your Order</h3>
+        </div>
+        <div class="form-group text-center">
+          <label for="item">Item:</label>
+          <input type="text"  name= "shirtType" class="form-control" id="shirtDes"> </input>
+        </div>
+        
+      
+     
+      <div class="form-group text-center">
+        <label for="price">Price:</label>
+        <input type="number" name ="cost" class="form-control  readonly " id="shirtPrice"> </input>
+      </div>
+      <br>
+      <div class="form-group ">
+      <!--  <label for="price">Size:</label>-->
+          <select name="sizeopt">
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
+            <option value="XL">xl</option>
+            <option value="2XL">2xl</option>
+         </select>
+      </div>
+      
+      <div class="form-group text-center">
+        <label for="quantity"> Enter Quanity:</label>
+        <input type="number" name="qty" class="form-control" id="quantity" value=" ">  </input>
+      </div>
+   <!--   <div class="form-group">
+      <label for="total">Total:</label>
+      <input type="number" name="totAmt" class="form-control" id="total"> </input>
+    </div>-->
+      <h5 id="total">Your total purchase is: $<span id = "tAmt">  </span> </h5>
+      
+      <div class="d-flex justify-content-around btn-group ">
+        <button type="button" onclick ="calcOrder (theForm.cost.value, theForm.qty.value)" 
+           class="btn btn-info">Review Purchase</button>
+        <button type="button" class="btn btn-success">Submit</button> 
+      </div>
+    </form>
+  </footer>
+      
+  </div>
+
+
+
+<!--<footer class="container-fluid text-center">
+  <h3>Stay Informed Get Deals</h3>  
+    <form >
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      <small  class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="Textarea">Comments</label>
+      <textarea class="form-control" id="Textarea" rows="4"></textarea>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <button type="button" class="btn btn-success">Sign Up</button>
+    </div>
+  </form>
+  </footer>-->
+  
+  
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <!--  lastly **j*c**  -->
+  <script src="js/index.js"> </script>
+</body>
+</html>
